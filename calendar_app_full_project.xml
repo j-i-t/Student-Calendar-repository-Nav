@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Calendar App - Full Project (Analysis to Evaluation)" company="" webLink="" view-date="2026-04-23" view-index="0" gantt-divider-location="350" resource-divider-location="300" version="3.0.3103" locale="en_AU">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <tabpanel name="Resources" care-about-nothing="false" show-project-rates="false" invisible="false"/>
+        <tabpanel name="Resource usage" care-about-nothing="false" show-project-rates="false" invisible="false"/>
+        <tabpanel name="Resource roles"/>
+        <tabpanel name="Teams"/>
+    </view>
+    <calendars base-calendar-id="1">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <day-type id="2"/>
+            <day-type id="3"/>
+            <day-type id="4"/>
+            <day-type id="5"/>
+            <day-type id="6"/>
+        </day-types>
+        <calendar id="1" name="default">
+            <default-week id="1" name="Default week" show-weekends="true">
+                <monday daytype="0"/>
+                <tuesday daytype="0"/>
+                <wednesday daytype="0"/>
+                <thursday daytype="0"/>
+                <friday daytype="0"/>
+                <saturday daytype="1"/>
+                <sunday daytype="1"/>
+            </default-week>
+            <only-show-weekends value="false"/>
+            <overrided-day-types/>
+            <days/>
+        </calendar>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="notes" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd5" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="end-date" type="default" valuetype="date"/>
+            <taskproperty id="tpd8" name="completion-percentage" type="default" valuetype="int"/>
+            <taskproperty id="tpd9" name="predecessor-id" type="default" valuetype="text"/>
+            <taskproperty id="tpd10" name="name" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Phase 1: Survey &amp; Analysis" color="#3266ad" meeting="false" start="2026-04-23" duration="7" complete="0" thStack="0" priority="2" expand="true"/>
+        <task id="2" name="Write survey questions" color="#3266ad" meeting="false" start="2026-04-23" duration="1" complete="0" thStack="0" priority="2" expand="true"/>
+        <task id="3" name="Send survey to 5-10 people" color="#3266ad" meeting="false" start="2026-04-24" duration="1" complete="0" thStack="0" priority="2" expand="true" predecessor-id="2"/>
+        <task id="4" name="Collect responses" color="#f5a623" meeting="false" start="2026-04-25" duration="5" complete="0" thStack="0" priority="2" expand="true" predecessor-id="3"/>
+        <task id="5" name="Analyze results &amp; write requirements" color="#3266ad" meeting="false" start="2026-04-30" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="4"/>
+        <task id="6" name="Phase 2: Design" color="#50c878" meeting="false" start="2026-05-02" duration="17" complete="0" thStack="0" priority="2" expand="true" predecessor-id="5"/>
+        <task id="7" name="Wireframes &amp; user flows" color="#50c878" meeting="false" start="2026-05-02" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="5"/>
+        <task id="8" name="UI design &amp; visual system" color="#50c878" meeting="false" start="2026-05-05" duration="6" complete="0" thStack="0" priority="2" expand="true" predecessor-id="7"/>
+        <task id="9" name="Component design &amp; refinement" color="#50c878" meeting="false" start="2026-05-11" duration="4" complete="0" thStack="0" priority="2" expand="true" predecessor-id="8"/>
+        <task id="10" name="Final design review &amp; specs" color="#50c878" meeting="false" start="2026-05-15" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="9"/>
+        <task id="11" name="Phase 3: Planning &amp; Setup" color="#7f77dd" meeting="false" start="2026-05-17" duration="5" complete="0" thStack="0" priority="2" expand="true" predecessor-id="10"/>
+        <task id="12" name="Define technical requirements" color="#7f77dd" meeting="false" start="2026-05-17" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="10"/>
+        <task id="13" name="Choose tech stack &amp; tools" color="#7f77dd" meeting="false" start="2026-05-19" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="12"/>
+        <task id="14" name="Set up project &amp; repo" color="#7f77dd" meeting="false" start="2026-05-21" duration="1" complete="0" thStack="0" priority="2" expand="true" predecessor-id="13"/>
+        <task id="15" name="Phase 4: Development" color="#185fa5" meeting="false" start="2026-05-22" duration="36" complete="0" thStack="0" priority="2" expand="true" predecessor-id="14"/>
+        <task id="16" name="Sprint 1: Core features (May 22-26)" color="#185fa5" meeting="false" start="2026-05-22" duration="5" complete="0" thStack="0" priority="2" expand="true" predecessor-id="14"/>
+        <task id="17" name="Build event creation" color="#185fa5" meeting="false" start="2026-05-22" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="14"/>
+        <task id="18" name="Build calendar views" color="#185fa5" meeting="false" start="2026-05-25" duration="4" complete="0" thStack="0" priority="2" expand="true" predecessor-id="17"/>
+        <task id="19" name="Criteria 1 &amp; 2 Due: Basic features working" color="#50c878" meeting="true" start="2026-05-31" duration="0" complete="0" thStack="0" priority="1" expand="true" predecessor-id="18"/>
+        <task id="20" name="Sprint 2: Polish &amp; refinement (Jun 2-12)" color="#185fa5" meeting="false" start="2026-06-02" duration="10" complete="0" thStack="0" priority="2" expand="true" predecessor-id="19"/>
+        <task id="21" name="Fix bugs from criteria 1&amp;2" color="#185fa5" meeting="false" start="2026-06-02" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="19"/>
+        <task id="22" name="Add repeat events &amp; reminders" color="#185fa5" meeting="false" start="2026-06-04" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="21"/>
+        <task id="23" name="Improve UI &amp; user experience" color="#185fa5" meeting="false" start="2026-06-07" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="22"/>
+        <task id="24" name="Criteria 3 Due: Core app complete" color="#50c878" meeting="true" start="2026-06-08" duration="0" complete="0" thStack="0" priority="1" expand="true" predecessor-id="23"/>
+        <task id="25" name="Sprint 3: Advanced features (Jun 9-19)" color="#185fa5" meeting="false" start="2026-06-09" duration="10" complete="0" thStack="0" priority="2" expand="true" predecessor-id="24"/>
+        <task id="26" name="Add integrations (Google Calendar, etc)" color="#185fa5" meeting="false" start="2026-06-09" duration="5" complete="0" thStack="0" priority="2" expand="true" predecessor-id="24"/>
+        <task id="27" name="Add sharing &amp; collaboration" color="#185fa5" meeting="false" start="2026-06-14" duration="4" complete="0" thStack="0" priority="2" expand="true" predecessor-id="26"/>
+        <task id="28" name="Criteria 4 Due: Advanced features added" color="#50c878" meeting="true" start="2026-06-15" duration="0" complete="0" thStack="0" priority="1" expand="true" predecessor-id="27"/>
+        <task id="29" name="Sprint 4: Final polish (Jun 16-26)" color="#185fa5" meeting="false" start="2026-06-16" duration="10" complete="0" thStack="0" priority="2" expand="true" predecessor-id="28"/>
+        <task id="30" name="Test all features thoroughly" color="#185fa5" meeting="false" start="2026-06-16" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="28"/>
+        <task id="31" name="Fix bugs &amp; optimize" color="#185fa5" meeting="false" start="2026-06-19" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="30"/>
+        <task id="32" name="Dark mode &amp; accessibility" color="#185fa5" meeting="false" start="2026-06-22" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="31"/>
+        <task id="33" name="Criteria 5 Due: Full app ready" color="#50c878" meeting="true" start="2026-06-29" duration="0" complete="0" thStack="0" priority="1" expand="true" predecessor-id="32"/>
+        <task id="34" name="Phase 5: Evaluation" color="#d4537e" meeting="false" start="2026-06-30" duration="12" complete="0" thStack="0" priority="2" expand="true" predecessor-id="33"/>
+        <task id="35" name="Test with real users" color="#d4537e" meeting="false" start="2026-06-30" duration="4" complete="0" thStack="0" priority="2" expand="true" predecessor-id="33"/>
+        <task id="36" name="Gather feedback &amp; fix issues" color="#d4537e" meeting="false" start="2026-07-04" duration="4" complete="0" thStack="0" priority="2" expand="true" predecessor-id="35"/>
+        <task id="37" name="Performance testing &amp; optimization" color="#d4537e" meeting="false" start="2026-07-08" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="36"/>
+        <task id="38" name="Final documentation &amp; handoff" color="#d4537e" meeting="false" start="2026-07-10" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="37"/>
+        <task id="39" name="Project Complete" color="#50c878" meeting="true" start="2026-07-12" duration="0" complete="0" thStack="0" priority="1" expand="true" predecessor-id="38"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <history/>
+</project>

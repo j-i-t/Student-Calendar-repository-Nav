@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Calendar App - Survey to Design" company="" webLink="" view-date="2026-04-23" view-index="0" gantt-divider-location="350" resource-divider-location="300" version="3.0.3103" locale="en_AU">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <tabpanel name="Resources" care-about-nothing="false" show-project-rates="false" invisible="false"/>
+        <tabpanel name="Resource usage" care-about-nothing="false" show-project-rates="false" invisible="false"/>
+        <tabpanel name="Resource roles"/>
+        <tabpanel name="Teams"/>
+    </view>
+    <calendars base-calendar-id="1">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <day-type id="2"/>
+            <day-type id="3"/>
+            <day-type id="4"/>
+            <day-type id="5"/>
+            <day-type id="6"/>
+        </day-types>
+        <calendar id="1" name="default">
+            <default-week id="1" name="Default week" show-weekends="true">
+                <monday daytype="0"/>
+                <tuesday daytype="0"/>
+                <wednesday daytype="0"/>
+                <thursday daytype="0"/>
+                <friday daytype="0"/>
+                <saturday daytype="1"/>
+                <sunday daytype="1"/>
+            </default-week>
+            <only-show-weekends value="false"/>
+            <overrided-day-types/>
+            <days/>
+        </calendar>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="notes" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd5" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="end-date" type="default" valuetype="date"/>
+            <taskproperty id="tpd8" name="completion-percentage" type="default" valuetype="int"/>
+            <taskproperty id="tpd9" name="predecessor-id" type="default" valuetype="text"/>
+            <taskproperty id="tpd10" name="name" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Phase 1: Analysis &amp; Survey" color="#3266ad" meeting="false" start="2026-04-23" duration="7" complete="0" thStack="0" priority="2" expand="true"/>
+        <task id="2" name="Write survey questions" color="#3266ad" meeting="false" start="2026-04-23" duration="1" complete="0" thStack="0" priority="2" expand="true"/>
+        <task id="3" name="Set up survey tool &amp; send it out" color="#3266ad" meeting="false" start="2026-04-24" duration="1" complete="0" thStack="0" priority="2" expand="true" predecessor-id="2"/>
+        <task id="4" name="Collect responses (5-10 people)" color="#f5a623" meeting="false" start="2026-04-25" duration="5" complete="0" thStack="0" priority="2" expand="true" predecessor-id="3"/>
+        <task id="5" name="Analyze results &amp; document requirements" color="#3266ad" meeting="false" start="2026-04-30" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="4"/>
+        <task id="6" name="Phase 2: Design" color="#50c878" meeting="false" start="2026-05-02" duration="17" complete="0" thStack="0" priority="2" expand="true" predecessor-id="5"/>
+        <task id="7" name="Wireframes &amp; user flows" color="#50c878" meeting="false" start="2026-05-02" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="5"/>
+        <task id="8" name="UI design &amp; visual system" color="#50c878" meeting="false" start="2026-05-05" duration="6" complete="0" thStack="0" priority="2" expand="true" predecessor-id="7"/>
+        <task id="9" name="Component design &amp; refinement" color="#50c878" meeting="false" start="2026-05-11" duration="4" complete="0" thStack="0" priority="2" expand="true" predecessor-id="8"/>
+        <task id="10" name="Final design review &amp; specs" color="#50c878" meeting="false" start="2026-05-15" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="9"/>
+        <task id="11" name="Phase 3: Planning &amp; Constraints" color="#7f77dd" meeting="false" start="2026-05-17" duration="5" complete="0" thStack="0" priority="2" expand="true" predecessor-id="10"/>
+        <task id="12" name="Define technical requirements &amp; constraints" color="#7f77dd" meeting="false" start="2026-05-17" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="10"/>
+        <task id="13" name="Architecture &amp; tech stack planning" color="#7f77dd" meeting="false" start="2026-05-19" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="12"/>
+        <task id="14" name="Ready for development" color="#7f77dd" meeting="true" start="2026-05-21" duration="0" complete="0" thStack="0" priority="1" expand="true" predecessor-id="13"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <history/>
+</project>

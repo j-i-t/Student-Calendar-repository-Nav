@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Calendar App Development - Analysis &amp; Design" company="" webLink="" view-date="2026-04-26" view-index="0" gantt-divider-location="350" resource-divider-location="300" version="3.0.3103" locale="en_AU">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <tabpanel name="Resources" care-about-nothing="false" show-project-rates="false" invisible="false"/>
+        <tabpanel name="Resource usage" care-about-nothing="false" show-project-rates="false" invisible="false"/>
+        <tabpanel name="Resource roles"/>
+        <tabpanel name="Teams"/>
+    </view>
+    <calendars base-calendar-id="1">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <day-type id="2"/>
+            <day-type id="3"/>
+            <day-type id="4"/>
+            <day-type id="5"/>
+            <day-type id="6"/>
+        </day-types>
+        <calendar id="1" name="default">
+            <default-week id="1" name="Default week" show-weekends="true">
+                <monday daytype="0"/>
+                <tuesday daytype="0"/>
+                <wednesday daytype="0"/>
+                <thursday daytype="0"/>
+                <friday daytype="0"/>
+                <saturday daytype="1"/>
+                <sunday daytype="1"/>
+            </default-week>
+            <only-show-weekends value="false"/>
+            <overrided-day-types/>
+            <days/>
+        </calendar>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="notes" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd5" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="end-date" type="default" valuetype="date"/>
+            <taskproperty id="tpd8" name="completion-percentage" type="default" valuetype="int"/>
+            <taskproperty id="tpd9" name="predecessor-id" type="default" valuetype="text"/>
+            <taskproperty id="tpd10" name="id" type="default" valuetype="text"/>
+            <taskproperty id="tpd11" name="ancestor-id" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Phase 1: Analysis" color="#3266ad" meeting="false" start="2026-04-26" duration="20" complete="0" thStack="0" priority="2" expand="true"/>
+        <task id="2" name="1.1 Define requirements &amp; constraints" color="#3266ad" meeting="false" start="2026-04-26" duration="5" complete="0" thStack="0" priority="2" expand="true"/>
+        <task id="3" name="1.2 Create survey questions" color="#f5a623" meeting="false" start="2026-05-01" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="2"/>
+        <task id="4" name="1.3 Build survey tool" color="#f5a623" meeting="false" start="2026-05-03" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="3"/>
+        <task id="5" name="1.4 Distribute survey" color="#f5a623" meeting="false" start="2026-05-06" duration="7" complete="0" thStack="0" priority="2" expand="true" predecessor-id="4"/>
+        <task id="6" name="1.5 Analyze results" color="#50c878" meeting="false" start="2026-05-13" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="5"/>
+        <task id="7" name="Phase 2: Design" color="#3266ad" meeting="false" start="2026-05-16" duration="20" complete="0" thStack="0" priority="2" expand="true" predecessor-id="6"/>
+        <task id="8" name="2.1 Create wireframes &amp; user flows" color="#3266ad" meeting="false" start="2026-05-16" duration="4" complete="0" thStack="0" priority="2" expand="true" predecessor-id="6"/>
+        <task id="9" name="2.2 Design UI mockups &amp; visual identity" color="#3266ad" meeting="false" start="2026-05-20" duration="6" complete="0" thStack="0" priority="2" expand="true" predecessor-id="8"/>
+        <task id="10" name="2.3 Incorporate survey feedback" color="#3266ad" meeting="false" start="2026-05-26" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="9"/>
+        <task id="11" name="2.4 Create design system &amp; components" color="#3266ad" meeting="false" start="2026-05-28" duration="5" complete="0" thStack="0" priority="2" expand="true" predecessor-id="10"/>
+        <task id="12" name="2.5 Design review &amp; refinement" color="#3266ad" meeting="false" start="2026-06-02" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="11"/>
+        <task id="13" name="Phase 3: Planning &amp; Requirements" color="#50c878" meeting="false" start="2026-06-05" duration="8" complete="0" thStack="0" priority="2" expand="true" predecessor-id="12"/>
+        <task id="14" name="3.1 Define technical requirements" color="#50c878" meeting="false" start="2026-06-05" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="12"/>
+        <task id="15" name="3.2 Architecture &amp; tech stack planning" color="#50c878" meeting="false" start="2026-06-08" duration="3" complete="0" thStack="0" priority="2" expand="true" predecessor-id="14"/>
+        <task id="16" name="3.3 Create development roadmap" color="#50c878" meeting="false" start="2026-06-11" duration="2" complete="0" thStack="0" priority="2" expand="true" predecessor-id="15"/>
+        <task id="17" name="Project Completion Milestone" color="#50c878" meeting="true" start="2026-06-12" duration="0" complete="0" thStack="0" priority="1" expand="true" predecessor-id="16"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <history/>
+</project>
